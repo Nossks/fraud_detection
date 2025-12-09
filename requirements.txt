@@ -11,5 +11,6 @@ huggingface-hub
 sentence-transformers>=2.2.2
 transformers>=4.40.2
 
+langchain_google_genai
 
 -e .

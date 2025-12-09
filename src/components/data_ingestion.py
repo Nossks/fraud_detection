@@ -99,5 +99,5 @@ class DataIngestion:
         
 # if __name__ == "__main__":
 #     obj = DataIngestion()
-#     metrics = obj.initiate_data_ingestion()
+#     metrics,store = obj.initiate_data_ingestion()
 #     print(metrics)
