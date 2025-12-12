@@ -12,7 +12,7 @@ from langchain_core.runnables import RunnableBranch,RunnableLambda
 class Prediction:
     def __init__(self):
         self.generation = DataGenerator()
-        self.generation.initiate_data_generation(10000)
+        self.generation.initiate_data_generation(1000)
         self.ingestion = DataIngestion()
         _, self.cyborg_db = self.ingestion.initiate_data_ingestion()
         subprocess.run(['python3', 'src/components/router_template_generator.py'])

@@ -12,7 +12,7 @@ try:
     from src.pipeline.prediction import Prediction
 except ImportError:
     try:
-        from src.pipeline.prediction_pipeline import Prediction
+        from src.pipeline.prediction import Prediction
     except ImportError:
         print("❌ CRITICAL ERROR: Could not find 'src/pipeline/prediction.py'")
         sys.exit(1)
