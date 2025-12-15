@@ -1,4 +1,4 @@
-# 🛡️ Fraud Detection: Secure Fraud Detection RAG
+# 🛡️ Finguard: Secure Fraud Detection RAG
 
 **Privacy-First Financial Forensics Powered by CyborgDB**
 
