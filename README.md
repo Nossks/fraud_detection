@@ -150,10 +150,6 @@ pip install -r requirements.txt
 Create a `.env` file. You must provide CyborgDB credentials to enable the encrypted layer.
 
 ```env
-# CyborgDB Config (Crucial)
-CYBORGDB_API_KEY=your_cyborg_api_key
-CYBORGDB_URL=your_cyborg_instance_url
-
 # AI Models
 HUGGINGFACEHUB_API_TOKEN=hf_your_token_here
 GOOGLE_API_KEY=api-key
